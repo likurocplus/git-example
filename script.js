@@ -29,7 +29,7 @@ const solveQuadraticEquation = (a,b,c) => {
         } else if(delta == 0){
             return (-b)/(2*a);
         } else {
-            return -1;
+            return "No Roots";
         }
     }
 }
