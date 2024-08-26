@@ -15,7 +15,7 @@ const getQuadraticRoots = () => {
 // math: ax^2 + bx + c = 0
 // input: a: the term before x^2
 //        b: the term before x
-//        c: the integer num
+//        c: the integer(float...) num
 // process: check condition and solve, a = 0 or a != 0 (check condition delta)
 // output: roots of Quadratic Equation
 const solveQuadraticEquation = (a,b,c) => {

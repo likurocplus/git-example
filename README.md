@@ -1,41 +1,41 @@
-### 1. The case of two actual analysis experiences
+### 1. Case of Two Distinct Real Roots
 
-- **Test case 1:**
+- **Test Case 1:**
   - **Input:** \( a = 1, b = -3, c = 2 \)
-  - **Expected:** The answer is \( x_1 = 2 \), \( x_2 = 1 \)
+  - **Expected Output:** Roots are \( x_1 = 2 \), \( x_2 = 1 \)
 
-### 2. Case of dual experience (single real experience)
+### 2. Case of Repeated Real Root
 
-- **Test case 2:**
+- **Test Case 2:**
   - **Input:** \( a = 1, b = -2, c = 1 \)
-  - **Expected result:** Double answer is \( x_1 = x_2 = 1 \)
+  - **Expected Output:** Repeated root is \( x_1 = x_2 = 1 \)
 
-### 3. Rational method without experience
+### 3. Case with Complex Roots
 
-- **Test case 3:**
+- **Test Case 3:**
   - **Input:** \( a = 1, b = 2, c = 5 \)
-  - **Expected output:** No experience (complex test)
+  - **Expected Output:** No real roots (Complex roots: \( x = -1 + 2i \) and \( x = -1 - 2i \))
 
-### 4. The case where the number a is 0 (not a level 2 method)
+### 4. Case Where \( a = 0 \) (Linear Equation)
 
-- **Test case 4:**
+- **Test Case 4:**
   - **Input:** \( a = 0, b = 2, c = -4 \)
-  - **Expected output:** Answer is \( x = 2 \) (top level method)
+  - **Expected Output:** Root is \( x = 2 \) (This is a linear equation, not quadratic)
 
-### 5. The case where all numbers are 0
+### 5. Case Where All Coefficients Are Zero
 
-- **Test case 5:**
+- **Test Case 5:**
   - **Input:** \( a = 0, b = 0, c = 0 \)
-  - **Expected output:** Infinite number of experiences (all values ​​of x are experiences)
+  - **Expected Output:** Infinite number of solutions (All values of \( x \) are solutions)
 
-### 6. Rational method without experience
+### 6. Case with \( a \neq 0 \) and \( b = 0 \)
 
-- **Test case 6:**
+- **Test Case 6:**
   - **Input:** \( a = 1, b = 0, c = 0 \)
-  - **Expected output:** The answer is \( x = 0 \) (but note if b and c are different from 0, the method may not be available)
+  - **Expected Output:** Root is \( x = 0 \)
 
-### 7. In case the number is negative
+### 7. Case Where Discriminant is Zero
 
-- **Test case 7:**
+- **Test Case 7:**
   - **Input:** \( a = 1, b = 2, c = 1 \)
-  - **Expected result:** The result is \( x = -1 \)
+  - **Expected Output:** Repeated root is \( x = -1 \) 
