@@ -1,41 +1,41 @@
-### 1. Trường hợp có hai nghiệm phân biệt thực
+### 1. The case of two actual analysis experiences
 
-- **Testcase 1:**
+- **Test case 1:**
   - **Input:** \( a = 1, b = -3, c = 2 \)
-  - **Expected Output:** Nghiệm là \( x_1 = 2 \), \( x_2 = 1 \)
+  - **Expected:** The answer is \( x_1 = 2 \), \( x_2 = 1 \)
 
-### 2. Trường hợp có nghiệm kép (nghiệm thực duy nhất)
+### 2. Case of dual experience (single real experience)
 
-- **Testcase 2:**
+- **Test case 2:**
   - **Input:** \( a = 1, b = -2, c = 1 \)
-  - **Expected Output:** Nghiệm kép là \( x_1 = x_2 = 1 \)
+  - **Expected result:** Double answer is \( x_1 = x_2 = 1 \)
 
-### 3. Trường hợp phương trình không có nghiệm thực
+### 3. Rational method without experience
 
-- **Testcase 3:**
+- **Test case 3:**
   - **Input:** \( a = 1, b = 2, c = 5 \)
-  - **Expected Output:** Không có nghiệm thực (nghiệm phức)
+  - **Expected output:** No experience (complex test)
 
-### 4. Trường hợp hệ số a bằng 0 (không phải phương trình bậc 2)
+### 4. The case where the number a is 0 (not a level 2 method)
 
-- **Testcase 4:**
+- **Test case 4:**
   - **Input:** \( a = 0, b = 2, c = -4 \)
-  - **Expected Output:** Nghiệm là \( x = 2 \) (phương trình bậc nhất)
+  - **Expected output:** Answer is \( x = 2 \) (top level method)
 
-### 5. Trường hợp tất cả các hệ số đều bằng 0
+### 5. The case where all numbers are 0
 
-- **Testcase 5:**
+- **Test case 5:**
   - **Input:** \( a = 0, b = 0, c = 0 \)
-  - **Expected Output:** Vô số nghiệm (mọi giá trị của x đều là nghiệm)
+  - **Expected output:** Infinite number of experiences (all values ​​of x are experiences)
 
-### 6. Trường hợp phương trình không có nghiệm
+### 6. Rational method without experience
 
-- **Testcase 6:**
+- **Test case 6:**
   - **Input:** \( a = 1, b = 0, c = 0 \)
-  - **Expected Output:** Nghiệm là \( x = 0 \) (nhưng phải chú ý nếu b và c khác 0, phương trình có thể không có nghiệm)
+  - **Expected output:** The answer is \( x = 0 \) (but note if b and c are different from 0, the method may not be available)
 
-### 7. Trường hợp nghiệm là số âm
+### 7. In case the number is negative
 
-- **Testcase 7:**
+- **Test case 7:**
   - **Input:** \( a = 1, b = 2, c = 1 \)
-  - **Expected Output:** Nghiệm kép là \( x = -1 \)
+  - **Expected result:** The result is \( x = -1 \)
