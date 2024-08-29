@@ -1,4 +1,16 @@
-//function to get value a b c from input(index) and set result textcontent have result  
+/**
+* getQuadraticRoots
+* 
+* INPUT:
+* - No direct input to the function. The values of a, b, and c are retrieved from the input fields on the web page using `document.getElementById("a").value`, `document.getElementById("b").value`, and `document.getElementById("c").value`.
+* 
+* PROCESS:
+* - Convert the input values from strings to floating-point numbers using `parseFloat`.
+* - Call the `solveQuadraticEquation(a, b, c)` function to calculate the roots of the quadratic equation with the parameters a, b, and c.
+* 
+* OUTPUT:
+* - Display the result of the quadratic equation's roots on the web page by setting the `textContent` property of the element with the id "result".
+*/
 const getQuadraticRoots = () => {
     //get a b c number 
     let a = parseFloat(document.getElementById("a").value);
