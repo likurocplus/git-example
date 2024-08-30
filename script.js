@@ -30,16 +30,22 @@ const getQuadraticRoots = () => {
 //        c: the integer(float...) num
 // process: check condition and solve, a = 0 or a != 0 (check condition delta)
 // output: roots of Quadratic Equation
+// helper function to solve root
 const solveQuadraticEquation = (a,b,c) => {
     if(a==0){
         return (-c)/b;
     } else {
         //calculator delta
         let delta = Math.pow(b,2) - 4*a*c;
+        //logic
+        //if math have 2 Roots
         if(delta > 0){
             return [(-b + Math.sqrt(delta))/(2*a) , (-b - Math.sqrt(delta))/(2*a)];
-        } else if(delta == 0){
+        } 
+        // if math have 1 root
+        else if(delta == 0){ 
             return (-b)/(2*a);
+        // if math no roots
         } else {
             return "No Roots";
         }
